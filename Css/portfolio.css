@@ -2,13 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@600&family=Roboto:wght@500&family=Rubik+Mono+One&display=swap');
 @font-face{
 	font-family: 'Agoka';
-	src:url("../../image/SVN-Agoka-Regular.otf");
+	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.otf");
 }
 @font-face{
-	font-family: Yipes VH;
-	src:url("../../image/Yipes.otf");
+	font-family: 'Agoka';
+	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.svg");
 }
-
+@font-face{
+	font-family: 'Agoka';
+	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.ttf");
+}
+@font-face{
+	font-family: 'Agoka';
+	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.woff");
+}
+@font-face{
+	font-family: 'Agoka';
+	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.woff2");
+}
 *{
 	margin: 0;
 	padding: 0;
