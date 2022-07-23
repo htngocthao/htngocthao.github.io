@@ -2,24 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@600&family=Roboto:wght@500&family=Rubik+Mono+One&display=swap');
 @font-face{
 	font-family: 'Agoka';
-	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.otf");
+	src:url("../../image/SVN-Agoka-Regular.otf");
 }
 @font-face{
-	font-family: 'Agoka';
-	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.svg");
+	font-family: Yipes VH;
+	src:url("../../image/Yipes.otf");
 }
-@font-face{
-	font-family: 'Agoka';
-	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.ttf");
-}
-@font-face{
-	font-family: 'Agoka';
-	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.woff");
-}
-@font-face{
-	font-family: 'Agoka';
-	src:url("../Font/SVN-Agoka/SVN-Agoka-Regular.woff2");
-}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -127,10 +116,10 @@ html{
 }
 #header ul li a{
 	text-decoration: none;
-	padding: 20px 15px;
+	padding: 6px 20px;
 	color: #988968;
-	border-radius: 1000px;
-	font-weight: 1000;
+	border-radius: 900px;
+	font-weight: 500;
 	font-family: 'Mitr', sans-serif;
 }
 #header ul li a:hover{
@@ -266,16 +255,16 @@ figure{
 }
 
 .card:hover figure{
-	top: -12%;
-	left: -8%;
+	top: -10%;
+	left: -10%;
 	transform: scale(0.98);
 	
 }
 img{
-	width: 100% ;
+	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	box-shadow:  0px 10px 30px -2px;
+	box-shadow:  0px 10px 80px -9px;
 }
 .text-center{
 		font-family: 'Agoka';
@@ -284,10 +273,10 @@ img{
 .content{
 	position: absolute;
 	bottom: 0;
-	padding: 0.5em 1.5em;
+	padding: 1.5em 1.5em;
 	z-index: 1;
 	color:#988968;
-	line-height: 30px;
+	line-height: 20px;
 	font-family: 'Agoka';
 }
 
@@ -298,7 +287,7 @@ section #collection {
 	position: absolute;
 	font-size: 10vh;
 	text-align: center;
-	line-height: 60em;
+	line-height: 40em;
 	transform: translateY(-50%);
 		font-family: 'Agoka';
 }
@@ -562,257 +551,6 @@ input[type="submit"]
 	font-size: 18px;
 	border-radius: 8px;
 }
-
-*#contact{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	max-height: 90vh;
-	background:;
-}
-.container{
-	width: 80%;
-	padding: 20px;
-	
-}
-.container h2{
-	width: 100%;
-	color: #988968;
-	font-size: 36px;
-	text-align: center;
-	margin-bottom: 10px;
-			font-family: 'Agoka';
-
-}
-.container .row100{
-	position: relative;
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-	
-}
-.container .row100 .col{
-	position: relative;
-	width: 100%;
-	padding: 0 10px;
-	margin: 30px 0 10px;
-	transition: 0.5s;
-}
-.container .row100 .inputBox{
-	position: relative;
-	width: 100%;
-	height: 40px;
-	color: #EAE8DF;
-	
-}
-.container .row100 .inputBox input,
-.container .row100 .inputBox.textarea textarea
-{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: transparent;
-	box-shadow: none;
-	border: none;
-	outline: none;
-	font-size: 18px;
-	padding: 0 10px;
-	z-index: 1;
-	color: #23221F;
-	
-}
-.container .row100 .inputBox text{
-	position: absolute;
-	top: 0;
-	left: 0;
-	line-height: 40px;
-	font-size: 18px;
-	padding: 0 10px;
-	display: block;
-	transition: 0.5s;
-	pointer-events: none;
-}
-.container .row100 .inputBox input:focus + .text,
-.container .row100 .inputBox input:valid + .text
-{
-	top: -35px;
-	left: -10px;
-}
-.container .row100 .inputBox .line{
-	position: absolute;
-	bottom: 0;
-	display: block;
-	width: 100%;
-	height: 2px;
-	background: #E2DDC7;
-	transition: 0.5s;
-	border-radius: 2px;
-	pointer-events: none;
-}
-.container .row100 .inputBox input:focus ~ .line,
-.container .row100 .inputBox input:valid ~ .line
-{
-	height: 100%;
-}
-.container .row100 .inputBox.textarea{
-	position: relative;
-	width: 100%;
-	height: 100px;
-	padding: 10px 0;
-}
-.container .row100 .inputBox.textarea textarea{
-	height: 100%;
-	resize: none;
-}
-.container .row100 .inputBox textarea:focus + .text,
-.container .row100 .inputBox textarea:valid + .text
-{
-	top: -35px;
-	left: -10px;
-	
-}
-.container .row100 .inputBox textarea:focus ~ .line,
-.container .row100 .inputBox textarea:valid ~ .line
-{
-	height: 100%;
-}
-input[type="submit"]
-{
-	border: none;
-	padding: 7px 35px;
-	cursor: pointer;
-	outline: none;
-	background: #CCC8B6;
-	color: #988968;
-	font-size: 18px;
-	border-radius: 8px;
-}
-
-*#contact{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	max-height: 90vh;
-	background:;
-}
-.container{
-	width: 80%;
-	padding: 20px;
-	
-}
-.container h2{
-	width: 100%;
-	color: #988968;
-	font-size: 36px;
-	text-align: center;
-	margin-bottom: 10px;
-			font-family: 'Agoka';
-
-}
-.container .row100{
-	position: relative;
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-	
-}
-.container .row100 .col{
-	position: relative;
-	width: 100%;
-	padding: 0 10px;
-	margin: 30px 0 10px;
-	transition: 0.5s;
-}
-.container .row100 .inputBox{
-	position: relative;
-	width: 100%;
-	height: 40px;
-	color: #EAE8DF;
-	
-}
-.container .row100 .inputBox input,
-.container .row100 .inputBox.textarea textarea
-{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: transparent;
-	box-shadow: none;
-	border: none;
-	outline: none;
-	font-size: 18px;
-	padding: 0 10px;
-	z-index: 1;
-	color: #23221F;
-	
-}
-.container .row100 .inputBox text{
-	position: absolute;
-	top: 0;
-	left: 0;
-	line-height: 40px;
-	font-size: 18px;
-	padding: 0 10px;
-	display: block;
-	transition: 0.5s;
-	pointer-events: none;
-}
-.container .row100 .inputBox input:focus + .text,
-.container .row100 .inputBox input:valid + .text
-{
-	top: -35px;
-	left: -10px;
-}
-.container .row100 .inputBox .line{
-	position: absolute;
-	bottom: 0;
-	display: block;
-	width: 100%;
-	height: 2px;
-	background: #E2DDC7;
-	transition: 0.5s;
-	border-radius: 2px;
-	pointer-events: none;
-}
-.container .row100 .inputBox input:focus ~ .line,
-.container .row100 .inputBox input:valid ~ .line
-{
-	height: 100%;
-}
-.container .row100 .inputBox.textarea{
-	position: relative;
-	width: 100%;
-	height: 100px;
-	padding: 10px 0;
-}
-.container .row100 .inputBox.textarea textarea{
-	height: 100%;
-	resize: none;
-}
-.container .row100 .inputBox textarea:focus + .text,
-.container .row100 .inputBox textarea:valid + .text
-{
-	top: -35px;
-	left: -10px;
-	
-}
-.container .row100 .inputBox textarea:focus ~ .line,
-.container .row100 .inputBox textarea:valid ~ .line
-{
-	height: 100%;
-}
-input[type="submit"]
-{
-	border: none;
-	padding: 7px 35px;
-	cursor: pointer;
-	outline: none;
-	background: #CCC8B6;
-	color: #988968;
-	font-size: 18px;
-	border-radius: 8px;
-}
-
 /*footer*/
 #codeopacity{
 	background: #EAE8DF;
